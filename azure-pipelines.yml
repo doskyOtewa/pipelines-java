@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  Default: ubuntu-latest
+  name: Default
 
 steps:
 - task: Maven@3
