@@ -11,13 +11,13 @@ pool:
 
 steps:
 - task: JavaToolInstaller@0
-    inputs:
-      versionSpec: "8"
-      jdkArchitectureOption: x64
-      jdkSourceOption: LocalDirectory
-      jdkFile: "/builds/jdk-8u361-linux-x64.tar.gz"
-      jdkDestinationDirectory: "/builds/binaries/externals"
-      cleanDestinationDirectory: true
+  inputs:
+    versionSpec: "8"
+    jdkArchitectureOption: x64
+    jdkSourceOption: LocalDirectory
+    jdkFile: "/builds/jdk-8u361-linux-x64.tar.gz"
+    jdkDestinationDirectory: "/builds/binaries/externals"
+    cleanDestinationDirectory: true
     
 - task: Maven@3
   inputs:
