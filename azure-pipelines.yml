@@ -15,8 +15,8 @@ steps:
     versionSpec: "8"
     jdkArchitectureOption: x64
     jdkSourceOption: LocalDirectory
-    jdkFile: "/jdk-8u361-linux-x64.tar.gz"
-    jdkDestinationDirectory: "/"
+    jdkFile: "/home/sotewa/ADO/vsts-agent-linux-x64-3.220.5/build/jdk-8u361-linux-x64.tar.gz"
+    jdkDestinationDirectory: "/home/sotewa/ADO/vsts-agent-linux-x64-3.220.5/build/binaries/externals"
     cleanDestinationDirectory: true
     
 - task: Maven@3
