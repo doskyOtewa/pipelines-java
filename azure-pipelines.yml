@@ -16,7 +16,7 @@ steps:
     jdkArchitectureOption: x64
     jdkSourceOption: LocalDirectory
     jdkFile: "/jdk-8u361-linux-x64.tar.gz"
-    jdkDestinationDirectory: "/binaries/externals"
+    jdkDestinationDirectory: "/"
     cleanDestinationDirectory: true
     
 - task: Maven@3
