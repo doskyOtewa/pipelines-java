@@ -15,7 +15,7 @@ steps:
     versionSpec: '8' # string. Required. JDK version. Default: 8.
     jdkArchitectureOption:  'x64' 
     jdkSourceOption: 'LocalDirectory'
-    jdkFile: 's/jdk-8u361-linux-x64.tar.gz'
+    jdkFile: '../jdk-8u361-linux-x64.tar.gz'
     
 - task: Maven@3
   inputs:
